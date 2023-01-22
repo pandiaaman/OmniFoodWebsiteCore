@@ -1,5 +1,5 @@
 "use strict";
-console.log("hello");
+// console.log("hello");
 
 let myName = "aman pandia";
 const h1 = document.querySelector(".heading-primary");
@@ -20,7 +20,7 @@ const navOpenBtn = document.querySelector(".btn-mobile-nav");
 const header = document.querySelector(".header");
 navOpenBtn.addEventListener("click", function () {
   header.classList.toggle("nav-open");
-  console.log("opening/closing nav");
+  // console.log("opening/closing nav");
 });
 
 //closing the mobile nav on clicking of a nav item
