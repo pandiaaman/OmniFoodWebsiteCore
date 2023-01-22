@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OmniFood &mdash; never cook again!</title>
+    <title>OmniFood &mdash; never cook again!!</title>
     <meta
       name="description"
       content="We are a technology company first, but with a major focus on consumer well-being through a healthy diet. Most people are very busy with their jobs, family and friends, and other important activities, which doesn't leave much time for cooking. This might lead to a poor diet and lasting health consequences. We want to solve this problem by using an AI-centric approach. Users can use our app to select their diet and foods they like and dislike, and our AI algorithm will create a custom and individual weekly meal plan. But we don't stop there. We partner with restaurants and other cooking partners to actually cook and deliver all meals from the generated meal plans, in selected cities. All this will be packed up in a monthly subscription, where users can choose between receiving one or two meals per day, every single day of the month."
@@ -662,12 +662,17 @@ Complete: $649 per month
                 first meal is on us!
               </p>
 
-              <form class="cta-form cta-grid grid--2--cols" action="#">
+              <form
+                class="cta-form cta-grid grid--2--cols"
+                name="sign-up"
+                netlify
+              >
                 <div>
                   <label for="full-name">FUll Name : </label>
                   <input
                     id="full-name"
                     type="text"
+                    name="full-name"
                     name=""
                     value=""
                     placeholder="Please Enter Your Full Name"
@@ -679,6 +684,7 @@ Complete: $649 per month
                   <input
                     id="email"
                     type="email"
+                    name="email"
                     name=""
                     value=""
                     placeholder="Please Enter Your Email"
@@ -687,7 +693,7 @@ Complete: $649 per month
                 </div>
                 <div>
                   <label for="select-where">Where did you hear about us</label>
-                  <select id="select-where">
+                  <select id="select-where" name="select-where">
                     <option value="">Please Choose one option</option>
                     <option value="insta">Insta Ads</option>
                     <option value="friends">Podcasts</option>
